@@ -31,6 +31,7 @@ Execution time (seconds): 3.261599999992981e-05
 
 ### Future Work
 - Redesign all data objects to use objects https://docs.python.org/3.7/reference/datamodel.html
+- See data type implementations in Python to Go transcompiler for inspiration on core type implementations https://github.com/google/grumpy/tree/master/runtime
 - Implement more features such as function calls with their own stack frames
 - Refactor the `run_instruction` main loop to support many data handlers
 - Implement a `print()` function
