@@ -1,6 +1,6 @@
 # ToyPy
 
-An toy Python 3 interpreter written in pure Python, just for fun.
+A toy Python 3 interpreter written in pure Python, just for fun.
 
 ### Features
 - Uses the lark grammar parser - https://github.com/lark-parser/lark
