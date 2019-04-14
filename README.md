@@ -27,6 +27,6 @@ Execution time (seconds): 1.937300000021125e-05
 ```
 
 ### Future Work
-- Use https://docs.python.org/3.7/reference/datamodel.html for all data
+- Use https://docs.python.org/3.7/reference/datamodel.html for all data objects
 - Implement more features such as function calls with their own stack frames
 - Have more fun
