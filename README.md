@@ -8,7 +8,7 @@ An toy Python 3 interpreter written in pure Python, just for fun.
 
 ### Working example
 Test file - test.py:
-```
+```python3
 x = 3 + 16 * 2
 y = 5 - 16 / 2
 
