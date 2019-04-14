@@ -20,7 +20,8 @@ z = 6 + 2
 
 Execution:
 ```
-> python parse.py
+# The interpreter reads a file called test.py
+> python interpreter.py
 Parsing time (seconds): 0.0010666940000001457
 Execution time (seconds): 1.937300000021125e-05
 ========= Stack Locals ==========
@@ -32,4 +33,5 @@ Execution time (seconds): 1.937300000021125e-05
 - Implement more features such as function calls with their own stack frames
 - Refactor the `run_instruction` main loop to support many data handlers
 - Implement a `print()` function
+- Allow any file name to be run in the interpreter
 - Have more fun
