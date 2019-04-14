@@ -28,6 +28,8 @@ Execution time (seconds): 1.937300000021125e-05
 ```
 
 ### Future Work
-- Use https://docs.python.org/3.7/reference/datamodel.html for all data objects
+- Redesign all data objects to use objects https://docs.python.org/3.7/reference/datamodel.html
 - Implement more features such as function calls with their own stack frames
+- Refactor the `run_instruction` main loop to support many data handlers
+- Implement a `print()` function
 - Have more fun
