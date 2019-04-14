@@ -4,7 +4,7 @@ An toy Python 3 interpreter written in pure Python, just for fun.
 
 ### Features
 - Uses the lark grammar parser - https://github.com/lark-parser/lark
-- Supports variable assignment with basic arithmetic expressions
+- Supports variable assignment with arithmetic expressions
 
 ### Working example
 Test file - `test.py`:
@@ -12,20 +12,21 @@ Test file - `test.py`:
 # The parser handles order of operations, making our interpreter more simple
 x = 3 + 16 * 2
 y = 5 - 16 / 2
+z = 5 - 16 / 2 * 52 + 9 * 2 / 18 + 82 - (52 / 2) / 82 - 2
 
 # Test reassignment
-z = 5 + 1
-z = 6 + 2
+b = 5 + 1
+b = 6 + 2
 ```
 
 Execution:
 ```
 # The interpreter reads a file called test.py
 > python interpreter.py
-Parsing time (seconds): 0.0010666940000001457
-Execution time (seconds): 1.937300000021125e-05
+Parsing time (seconds): 0.0014879070000000105
+Execution time (seconds): 3.261599999992981e-05
 ========= Stack Locals ==========
-{'x': 35, 'y': -3.0, 'z': 8}
+{'x': 35, 'y': -3.0, 'z': -330.3170731707317, 'b': 8}
 ```
 
 ### Future Work
